@@ -9,14 +9,13 @@ class Solution
         {
             for(int j=1;j<n-1;j++)
             {
-              System.out.printf("%d",j);
+                System.out.printf("%d",j);
             }
-            for(int k=1;k<n-2;k++)
+            for(int k=n-3;k>0;k--)
             {
                 System.out.printf("%d",k);
             }
             System.out.println();
         }
-        
     }
 }
