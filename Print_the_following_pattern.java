@@ -7,9 +7,16 @@ class Solution
         int n=sc.nextInt();
         for(int i=1;i<n+1;i++)
         {
-            for(int j=i;j<n+1;j++)
+            for(int j=1;j<n+1;j++)
             {
-             System.out.printf("%d ",j);  
+                if(i==j || i==n+1-j)
+                {
+                    System.out.printf("%d ",n-i+1);
+                }
+                else
+                {
+                    System.out.printf(" ");
+                }
             }
             System.out.println();
         }
