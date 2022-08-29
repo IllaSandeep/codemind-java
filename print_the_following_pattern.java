@@ -5,13 +5,21 @@ class Solution
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        for(int i=n;i>=1;i--)
+            for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
         {
-            for(int j=1;j<=i;j++)
+            if(j==1 ||i==j ||i==n)
             {
-                System.out.printf("%d",j);
+                System.out.printf("*");
             }
-            System.out.println();
+            else
+            {
+                System.out.printf(" ");
+            }
         }
+        System.out.printf("
+");
+    }
     }
 }
