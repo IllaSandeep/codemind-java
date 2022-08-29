@@ -9,13 +9,13 @@ class Solution
         {
             for(int j=0;j<n;j++)
             {
-                if(i==j || i+j==n-1)
+                if(i==j)
                 {
-                    System.out.printf("x");
+                    System.out.printf("0");
                 }
                 else
                 {
-                    System.out.printf("0");
+                    System.out.printf("x");
                 }
             }
             System.out.println();
