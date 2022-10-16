@@ -11,9 +11,13 @@ class Solution
             {
                 System.out.print(" ");
             }
-            for(int j=0;j<i*2+1;j++)
+            for(int j=i;j>0;j--)
             {
-                System.out.print(i+1+"");
+                System.out.print(j+"");
+            }
+            for(int j=0;j<i+1;j++)
+            {
+                System.out.print(j+"");
             }
             System.out.println();
         }
