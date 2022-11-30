@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution
+class Solution 
 {
     public static void main(String args[])
     {
@@ -10,19 +10,10 @@ class Solution
         {
             a[i]=sc.nextInt();
         }
+        Arrays.sort(a);
         for(int i=0;i<n;i++)
         {
-            if(a[i]==0)
-            {
-                System.out.format("%d ",a[i]);
-            }
-        }
-        for(int i=0;i<n;i++)
-        {
-            if(a[i]==1)
-            {
-                System.out.format("%d ",a[i]);
-            }
+            System.out.print(a[i]+" ");
         }
     }
 }
